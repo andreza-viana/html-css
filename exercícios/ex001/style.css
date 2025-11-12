@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor0: #B194A3;
+    --cor1: #866B7A;
+    --cor2: #5C3A4C;
+    --cor3: #331826;
+    --cor4: #DB93BA;
+    --cor5: #cbc8c8;
+    
+    --fonte-padrao: "Montserrat", sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte-titulos: "Open Sans", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor0);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor3));
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
+header > h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-destaque);
+    font-size: 3em;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px #00000065;
+}
+header > p {
+    font-family: var(--fonte-titulos);
+    font-size: 1.2em;
+    color: var(--cor5);
+    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    text-shadow: 20px 20px 10px #00000088;
+}
+nav {
+    background-color: var(--cor3);
+    padding: 10px;
+    box-shadow: 0px 9px 9px #00000031;
+}
+nav > a {
+    color: var(--cor5);
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-family: var(--fonte-titulos);
+    font-weight: bold;
+    transition-duration: .5s;
+}
+nav > a:hover {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    font-weight: bolder;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #0000006b;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+}
+main h1 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulos);
+    font-size: 1.6em;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-indent: 8px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.277);
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.277);
+}
+main h2 {
+    color: var(--cor2);
+    font-family: var(--fonte-titulos);
+    font-size: 1.3em;
+    background-image: linear-gradient(to right, var(--cor0), transparent);
+    text-indent: 8px;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.277);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.277);
+}
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 15px;
+    font-family: var(--fonte-padrao);
+    font-size: 1em;
+    line-height: 1.5em;
+}
+main strong {
+    color: var(--cor2);
+}
+main a {
+    text-decoration: none;
+    color: var(--cor3);
+    font-weight: bold;
+    background-color: var(--cor1);
+    padding: 2px 6px;
+}
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor2);
+}
+main img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+aside {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor0);
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #00000048;
+}
+aside > h3 {
+    font-family: var(--fonte-titulos);
+    background-color: var(--cor2);
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    margin: -8px -8px 0px -8px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > p {
+    color: var(--cor3);
+}
+
+footer {
+    font-family: var(--fonte-titulos);
+    background-color: var(--cor3);
+    color: var(--cor5);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px 8px;
+}
+footer a {
+    color: var(--cor5);
+    font-weight: bolder;
+    text-decoration: none;
+}

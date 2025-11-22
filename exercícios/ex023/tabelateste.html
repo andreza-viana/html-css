@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            text-align: center;
+        }
+        main > h1 {
+            text-align: left;
+        }
+        table {
+            width: 700px;
+            border-collapse: collapse;
+        }
+       td, th {
+            border: 1px solid black;
+            padding: 10px;
+       }
+       tbody {
+        background-color: rgb(237, 221, 199);
+       }
+       thead, tfoot {
+        background-color: #386807;
+        color: white;
+       }
+       tfoot {
+        background-color: #386807;
+       }
+       td.num {
+        text-align: right;
+       }
+    </style>
+</head>
+<body>
+      <main>
+        <h1>Regiões do Brasil por População</h1>
+        <table>
+            <thead>
+               <th>Região</th>
+               <th>População</th>
+               <th>Variação</th>
+               <th>% do total</th>
+               <th>País comparável</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Sudeste</td>
+                <td class="num">88.825.643</td>
+                <td>5,57%</td>
+                <td>41,62%</td>
+                <td>Turquia <br> (87.685.426)</td>
+            </tr>
+            <tr>
+                <td>Nordeste</td>
+                <td class="num">57.244.485</td>
+                <td>2.97%</td>
+                <td>26,82%</td>
+                <td>Quênia <br> (57.532.493)</td>
+            </tr>
+            <tr>
+                <td>Sul</td>
+                <td class="num">31.310.809</td>
+                <td>9,31%</td>
+                <td>14,67%</td>
+                <td>Costa do Marfim <br> (32.711.547)</td>
+            </tr>
+        
+            <tr>
+                <td>Norte</td>
+                <td class="num">18 801 282</td>
+                <td>9,39%</td>
+                <td>8,81%</td>
+                <td>Romênia <br> (18.908.650)</td>
+            </tr>
+            <tr>
+                <td>Centro-Oeste</td>
+                <td class="num">31.310.809</td>
+                <td>15,87%</td>
+                <td>8,08%</td>
+                <td>Zimbabwe</td>
+            </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>TOTAL</th>
+                <td class="num"><strong>213.421.037</strong></td>
+                <td>6,46%</td>
+                <td>100%</td>
+                <td>=</td>
+              </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>

@@ -9,12 +9,13 @@
            font-family: Arial, Helvetica, sans-serif;
         }
         table {
-           width: 500px;
+           width: 650px;
            border-collapse: collapse;
         }
         td, th {
+           height: 45px;
            border: 1px solid black;
-           padding: 10px; 
+           padding: 8px; 
         }
         thead, tfoot {
             background-color: gray;
@@ -22,6 +23,13 @@
             font-weight: bold;
         }
         td.num {
+            text-align: right;
+        }
+        .porcentagem {
+            text-align: center;
+        }
+        .pais {
+            
             text-align: right;
         }
     </style>
@@ -41,154 +49,183 @@
     <table>
         <thead>
            <tr>
-             <th>Estado</th>
+             <th>Unidade Federativa</th>
              <th>População</th>
-             <th>Porcentagem</th>
+             <th>% do total</th>
+             <th>País Comparável (habitantes)</th>
            </tr>
         </thead>
         <tbody>
             <tr>
                 <td>São Paulo</td>
                 <td class="num">46.081.801</td>
-                <td>21,59%</td>
+                <td class="porcentagem">21,59%</td>
+                <td class="pais">Argentina <br> (45.851.378)</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
                 <td class="num">21.393.441</td>
-                <td>10,02%</td>
+                <td class="porcentagem">10,02%</td>
+                <td class="pais">Chade <br>(21.003.705)</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17.223.547</td>
-                <td>8,07%</td>
+                <td class="porcentagem">8,07%</td>
+                <td class="pais">Zimbabwe <br>(16.950.795)</td>
             </tr>
             <tr>
                 <td>Bahia</td>
                 <td class="num">14.870.907</td>
-                <td>6,97%</td>
+                <td class="porcentagem">6,97%</td>
+                <td class="pais">Benim <br>(14.814.460)</td>
             </tr>
             <tr>
                 <td>Paraná</td>
                 <td class="num">11.890.517</td>
-                <td>5,57%</td>
+                <td class="porcentagem">5,57%</td>
+                <td class="pais">Haiti <br>(11.906.095)</td>
             </tr>
             <tr>
                 <td>Rio Grande do Sul</td>
                 <td class="num">11.233.263</td>
-                <td>5,26%</td>
+                <td class="porcentagem">5,26%</td>
+                <td class="pais">Emirados Árabes Unidos <br>(11.346.000)</td>
             </tr>
             <tr>
                 <td>Pernambuco</td>
                 <td class="num">9.562.007</td>
-                <td>4,48%</td>
+                <td class="porcentagem">4,48%</td>
+                <td class="pais">Israel <br>(9.517.181)</td>
             </tr>
             <tr>
                 <td>Ceará</td>
                 <td class="num">9.268.836</td>
-                <td>4,34%</td>
+                <td class="porcentagem">4,34%</td>
+                <td class="pais">Áustria <br>(9.113.574)</td>
             </tr>
             <tr>
                 <td>Pará</td>
                 <td class="num">8.711.196</td>
-                <td>4,08%</td>
+                <td class="porcentagem">4,08%</td>
+                <td class="pais">Serra Leoa <br>(8.819.794)</td>
             </tr>
             <tr>
                 <td>Santa Catarina</td>
                 <td class="num">8.187.029</td>
-                <td>3,84%</td>
+                <td class="porcentagem">3,84%</td>
+                <td class="pais">Laos <br>(7.873.046)</td>
             </tr>
             <tr>
                 <td>Goiás</td>
                 <td class="num">7.423.629</td>
-                <td>3,48%</td>
+                <td class="porcentagem">3,48%</td>
+                <td class="pais">Líbia <br>(7.458.555)</td>
             </tr>
             <tr>
                 <td>Maranhão</td>
                 <td class="num">7.018.211</td>
-                <td>3,29%</td>
+                <td class="porcentagem">3,29%</td>
+                <td class="pais">Paraguai <br>(7.013.078)</td>
             </tr>
             <tr>
                 <td>Amazonas</td>
                 <td class="num">4.321.616</td>
-                <td>2,02%</td>
+                <td class="porcentagem">2,02%</td>
+                <td class="pais">Panamá <br>(4.571.189)</td>
             </tr>
             <tr>
                 <td>Paraíba</td>
                 <td class="num">4.164.468</td>
-                <td>1,95%</td>
+                <td class="porcentagem">1,95%</td>
+                <td class="pais">Croácia <br>(3.848.160)</td>
             </tr>
             <tr>
                 <td>Espírito Santo</td>
                 <td class="num">4.126.854</td>
-                <td>1,93%</td>
+                <td class="porcentagem">1,93%</td>
+                <td class="pais">Croácia <br>(3.848.160)</td>
             </tr>
             <tr>
                 <td>Mato Grosso</td>
                 <td class="num">3.893.659</td>
-                <td>1,82%</td>
+                <td class="porcentagem">1,82%</td>
+                <td class="pais">Croácia <br>(3.848.160)</td>
             </tr>
             <tr>
                 <td>Rio Grande do Norte</td>
                 <td class="num">3.455.236</td>
-                <td>1,62%</td>
+                <td class="porcentagem">1,62%</td>
+                <td class="pais">Mongólia <br>(3.517.100)</td>
             </tr>
             <tr>
                 <td>Piauí</td>
                 <td class="num">3.384.547</td>
-                <td>1,59%</td>
+                <td class="porcentagem">1,59%</td>
+                <td class="pais">Uruguai <br>(3.384.688)</td>
             </tr>
             <tr>
                 <td>Alagoas</td>
                 <td class="num">3.220.848</td>
-                <td>1,51%</td>
+                <td class="porcentagem">1,51%</td>
+                <td class="pais">Bósnia e Herzegovina <br>(3.140.095)</td>
             </tr>
             <tr>
                 <td>Distrito Federal</td>
                 <td class="num">2.996.899</td>
-                <td>1,40%</td>
+                <td class="porcentagem">1,40%</td>
+                <td class="pais">Moldávia <br>(2.996.106)</td>
             </tr>
             <tr>
                 <td>Mato Grosso do Sul</td>
                 <td class="num">2.924.631</td>
-                <td>1,40%</td>
+                <td class="porcentagem">1,40%</td>
+                <td class="pais">Armênia <br>(2.952.365)</td>
             </tr>
             <tr>
                 <td>Sergipe</td>
                 <td class="num">2.299.425</td>
-                <td>1,08%</td>
+                <td class="porcentagem">1,08%</td>
+                <td class="pais">Guiné-Bissau <br>(2.249.515)</td>
             </tr>
             <tr>
                 <td>Rondônia</td>
                 <td class="num">1.751.950</td>
-                <td>0.82%</td>
+                <td class="porcentagem">0.82%</td>
+                <td class="pais">Macedônia do Norte <br>(1.813.791)</td>
             </tr>
             <tr>
                 <td>Tocantins</td>
                 <td class="num">1.751.950</td>
-                <td>0,82%</td>
+                <td class="porcentagem">0,82%</td>
+                <td class="pais">Barém <br>(1.643.332)</td>
             </tr>
             <tr>
 
                 <td>Acre</td>
                 <td class="num">884.372</td>
-                <td>0,41%</td>
+                <td class="porcentagem">0,41%</td>
+                <td class="pais">Comores <br>(882.847)</td>
             </tr>
             <tr>
                 <td>Amapá</td>
                 <td class="num">806.517</td>
-                <td>0,38%</td>
+                <td class="porcentagem">0,38%</td>
+                <td class="pais">Butão <br>(796.682)</td>
             </tr>
             <tr>
                 <td>Roraima</td>
                 <td class="num">738.772</td>
-                <td>0,35%</td>
+                <td class="porcentagem">0,35%</td>
+                <td class="pais">Butão <br>(796.682)</td>
             </tr>
         </tbody>
         <tfoot>
             <tr>
                 <th>Total de Habitantes</th>
-                <td class="num"><strong>213 421 037</strong></td>
-                <td>100%</td>
+                <td class="num">213.421.037</td>
+                <td class="porcentagem">100%</td>
+                <td class="porcentagem">-</td>
             </tr>
         </tfoot>
     </table>

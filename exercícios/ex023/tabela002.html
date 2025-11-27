@@ -12,6 +12,12 @@
            width: 650px;
            border-collapse: collapse;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
         td, th {
            height: 45px;
            border: 1px solid black;
@@ -21,6 +27,9 @@
             background-color: gray;
             color: white;
             font-weight: bold;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
         td.num {
             text-align: right;
@@ -47,12 +56,13 @@
          TR, TD, TH
          -->
     <table>
+        <caption>Unidades federativas do Brasil por população</caption>
         <thead>
            <tr>
-             <th>Unidade Federativa</th>
-             <th>População</th>
-             <th>% do total</th>
-             <th>País Comparável (habitantes)</th>
+             <th scope="col">Unidade Federativa</th>
+             <th scope="col" style="width: 130px;">População</th>
+             <th scope="col" style="width: 100px;">% do total</th>
+             <th scope="col" style="width: 150px;">País Comparável <br> (habitantes)</th>
            </tr>
         </thead>
         <tbody>
@@ -222,7 +232,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num">213.421.037</td>
                 <td class="porcentagem">100%</td>
                 <td class="porcentagem">-</td>
